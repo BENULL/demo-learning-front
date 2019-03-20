@@ -6,9 +6,8 @@ import router from './router'
 import './assets/styles/border.css'
 import './assets/styles/reset.css'
 // 引入Echarts
-import Echarts from 'echarts'
-Vue.prototype.echarts = Echarts
-Vue.use(Echarts)
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 
 Vue.config.productionTip = false
 
